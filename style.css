@@ -1,0 +1,135 @@
+body {
+    margin: 0
+}
+
+body p {
+    font-size: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0, 68, 148, 1) 20%, rgba(0, 68, 148, 0.8) 100%),
+        url("./pictures/background-header-illustration1600.jpg") no-repeat 50% 40%;
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    margin: 0;
+    border-top: 15px solid #012752;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header img {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+header nav {
+    background-color: #012752;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #004494;
+}
+
+main {
+    margin: 200px 100px 50px 100px;
+}
+
+.firstDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.firstDiv img {
+    flex-basis: 25%;
+    width: 100%;
+}
+
+.firstDiv div {
+    flex-basis: 50%;
+}
+
+div h2 {
+    text-align: center;
+    background-color: #004494;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.secondDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secondDiv img {
+    width: 60%;
+}
+
+.secondDiv_img {
+    display: flex;
+    gap: 50px;
+}
+
+.thirdDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thirdDiv img {
+    width: 80%;
+}
+
+.thirdDiv {
+    display: flex;
+    gap: 50px;
+}
+
+.thirdDiv_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdDiv_img img {
+width: 30%;
+}
+

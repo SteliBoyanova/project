@@ -133,3 +133,10 @@ div h2 {
 width: 30%;
 }
 
+footer {
+    background-color: #004494;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
